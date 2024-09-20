@@ -426,6 +426,16 @@ export default {
         { value: 'DEVICE', text: this.$i18n.t('message.component_device') },
         { value: 'FIRMWARE', text: this.$i18n.t('message.component_firmware') },
         { value: 'FILE', text: this.$i18n.t('message.component_file') },
+        { value: 'PLATFORM', text: this.$i18n.t('message.component_platform') },
+        {
+          value: 'DEVICE_DRIVER',
+          text: this.$i18n.t('message.component_device_driver')
+        },
+        {
+          value: 'MACHINE_LEARNING_MODEL',
+          text: this.$i18n.t('message.component_machine_learning_model')
+        },
+        { value: 'DATA', text: this.$i18n.t('message.component_data') },
       ],
       selectableLicenses: [],
       selectedLicense: '',

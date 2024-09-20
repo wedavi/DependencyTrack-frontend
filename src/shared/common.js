@@ -391,6 +391,10 @@ $common.componentClassifierLabelFormatter = (i18n) => {
       case 'DEVICE':
       case 'FIRMWARE':
       case 'FILE':
+      case 'PLATFORM':
+      case 'DEVICE_DRIVER':
+      case 'MACHINE_LEARNING_MODEL':
+      case 'DATA':
         return i18n.$t(`message.component_${value.toLowerCase()}`);
       default:
         return null;
@@ -417,6 +421,10 @@ $common.componentClassifierLabelProjectUrlFormatter = (i18n) => {
       case 'DEVICE':
       case 'FIRMWARE':
       case 'FILE':
+      case 'PLATFORM':
+      case 'DEVICE_DRIVER':
+      case 'MACHINE_LEARNING_MODEL':
+      case 'DATA':
         return `<a href="${url}">${i18n.$t(
           `message.component_${value.toLowerCase()}`,
         )}</a>`;
